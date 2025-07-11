@@ -120,3 +120,37 @@ body {
     border-radius: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+/* Productive User Section */
+.productive-section {
+    background-color: #eaeaff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 80px auto;
+    max-width: 1000px;
+}
+
+.productive-section h2 {
+    font-size: 35px;
+    color: #1c1c1c;
+    margin-bottom: 40px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.stat-item h3 {
+    font-size: 70px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 14px;
+    color: #757575;
+}
