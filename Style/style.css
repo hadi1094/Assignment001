@@ -154,3 +154,70 @@ body {
     font-size: 14px;
     color: #757575;
 }
+
+
+/* Newsletter Section */
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 160px 200px;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #eeeefa;
+}
+
+.newsletter-left h2 {
+    font-size: 80px;
+    color: #000000;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.newsletter-right {
+    flex: 1;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4E47FF;
+}
+
+.contact-form button {
+    background-color: #4E47FF;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #3a35cc;
+}
